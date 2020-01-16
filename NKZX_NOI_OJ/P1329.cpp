@@ -1,0 +1,46 @@
+#include<cstdio>
+int main(){
+    int n;
+    scanf("%d",&n);
+    while(n>=1000){
+        putchar('m');
+        n-=1000;
+    }
+    if(n>500){
+        putchar('d');
+        n-=500;
+    }
+    if(n>400){
+        printf("cd");
+        n-=400;
+    }
+    while(n>=100){
+        putchar('c');
+        n-=100;
+    }
+    while(n>=50){
+        putchar('l');
+        n-=50;
+    }
+    if(n>40){
+        printf("xl");
+        n-=40;
+    }
+    while(n>=10){
+        putchar('x');
+        n-=10;
+    }
+    if(n>=5){
+        putchar('v');
+        n-=5;
+    }
+    if(n>=4){
+        printf("iv");
+        n-=4;
+    }
+    while(n>0){
+        n--;
+        putchar('i');
+    }
+    return 0;
+}

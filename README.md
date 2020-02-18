@@ -1,4 +1,4 @@
-# RoseCppSource
+# OpenJudge提交归档
 ~~一个苦逼Android开发者的repo~~  
 ~~刺激过度,一时脑袋发热,后来想想开一个也没什么,就一直Commit了~~    
 ~~突然设定成Public了~~  
